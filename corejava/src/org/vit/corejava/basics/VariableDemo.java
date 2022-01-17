@@ -32,8 +32,12 @@ public class VariableDemo {
         System.out.println("Maximum Range of Integer: " +Integer.MAX_VALUE);
 
         System.out.println("Size of Double Type: " +(Double.SIZE)/8 + " Bytes");
+        System.out.println("Minimum Range of Double: " +Double.MIN_VALUE);
+        System.out.println("Maximum Range of Double: " +Double.MAX_VALUE);
 
         System.out.println("Size of Character Type: " +(Character.SIZE)/8 + " Bytes");
+        System.out.println("Minimum Range of Character: " + (int)Character.MIN_VALUE);
+        System.out.println("Maximum Range of Character: " + (int)Character.MAX_VALUE);
 
         // 1D and 2D Array        
         int[] values = {1,2,3,4,5};
