@@ -15,7 +15,7 @@ public class VariableDemo {
          * class String - for storing collection of characters
          */
         int value = 10; // Define variable
-        double normalTemperature = 24.5;
+        float normalTemperature = 24.5f;
         double minimumBoilerTemperature = 100.5;
         char ch = 'Y';
         boolean flag = true;
@@ -31,9 +31,9 @@ public class VariableDemo {
         System.out.println("Minimum Range of Integer: " +Integer.MIN_VALUE);
         System.out.println("Maximum Range of Integer: " +Integer.MAX_VALUE);
 
-        System.out.println("Size of an Double Type: " +(Double.SIZE)/8 + " Bytes");
+        System.out.println("Size of Double Type: " +(Double.SIZE)/8 + " Bytes");
 
-        System.out.println("Size of an Character Type: " +(Character.SIZE)/8 + " Bytes");
+        System.out.println("Size of Character Type: " +(Character.SIZE)/8 + " Bytes");
 
         // 1D and 2D Array        
         int[] values = {1,2,3,4,5};
