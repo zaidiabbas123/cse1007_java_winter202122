@@ -24,24 +24,31 @@ Author: Anthoniraj Amalanathan
   ```
 
 #### Create a String
+  ```
   String str = "Hello";
   str.toUpperCase()
   str.length()
+  ```
 
 #### Create a List
+```
   var myList = Arrays.asList(4,5,3,1,2);
   myList.sort(Comparator.naturalOrder())
   myList
   myList.sort(Comparator.reverseOrder())
   myList
+```
 
 #### Create a Greet Method
+```
   String greetUser(String name){
     return "Welcome " + name;
   }
   greetUser("Anthoniraj")
+```
 
 #### Create a Boolean Method
+```
   boolean isEven(int n){
     if (n % 2 == 0) {
        return true;
@@ -51,3 +58,4 @@ Author: Anthoniraj Amalanathan
   }
 isEven(10)
 isEven(9)
+```
