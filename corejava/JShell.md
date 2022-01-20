@@ -5,7 +5,7 @@
 ### What is JSHELL?
 - JSHELL is the command line tools for Read/Evaluate/Print/Loop (REPL) Java Statements
 - It can be used for learning Java Concepts
-- The small Java Statements executed in JSHELL is called as Snippets
+- The Java Statements executed in JSHELL is called as Snippets
 - To run, type `jshell` in Terminal/Command Window
 
 ### Minimum Java Version?
