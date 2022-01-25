@@ -11,10 +11,16 @@ package org.vit.corejava.basics;
 // Import required packages
 import java.util.List;
 
+//import org.vit.corejava.oop.Rectangle;
+
+
 // Class HelloWorld
 public class HelloWorld {
 	// Main Method - Signature
 	public static void main(String[] args) {
+		//Rectangle rect1 = new Rectangle();
+		//rect1.length = 10.5;
+	
 		//Simple Print Statement
 		System.out.println("Hello World");
 		
