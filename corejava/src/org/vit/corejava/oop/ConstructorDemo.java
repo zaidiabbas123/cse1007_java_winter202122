@@ -15,12 +15,13 @@ class Student{
 
     /**
      * Whats is Constructor?: Special Method in Java
+     * Role of Constructor
+     * - Constructor is used for initializing an Object and properties of the class
+     * - Constructor is also used for creating Heap Memory of an Object
      * Rules for Creating Constrcutor
      * - Constructor name should be similar to class name
      * - It does not return anything and dont use any return type (even void)
-     * - You can use visibility modifier for constructor
-     * - Constructor is used for initializing an Object and properties of the class
-     * - Constructor is also used for creating Heap Memory of an Object
+     * - You can use visibility modifier (Default, Private, Public, Protected) for constructor
      * - Constructor takes parameter also (Called as Parameterized Constructor).
      * Types of Constructor
      * - Default Constrcutor
@@ -73,7 +74,7 @@ class Student{
 }
 
 /* Testing Student Class */
-public class StudentTest {    
+public class ConstructorDemo {    
   public static void main(String[] args) {
      Student student = new Student("Kumar", "20BCE0001",new double[]{65.5, 56.5, 78.5, 90.5});
      /*student.setName("Kumar");
