@@ -90,3 +90,10 @@ public class ConstructorDemo {
   }  
 }
 
+/**
+ * Output
+ * 72.75
+ * Kumar
+ * 78.2 
+ * Kamal 
+ */

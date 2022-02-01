@@ -102,3 +102,8 @@ public class ConstructorChaining {
   }  
 }
 
+/**
+ * Output
+ * The Fall202122 Average of Kumar is 72.75
+ * The Fall202122 Average of Anish is 88.75
+ */
