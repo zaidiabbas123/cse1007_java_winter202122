@@ -2,7 +2,7 @@ package org.vit.corejava.oop;
 
 /*
 * Author: Anthoniraj Amalanathan
-* Date Last Modified: 27-Jan-2022
+* Date Last Modified: 31-Jan-2022
 * Description: Core Java: OOP - Constructor Chaining Demo
 * Requirement : Calculate the Average Mark of the Students in Fall202122 Semester
 * GitHub URL: https://github.com/anthoniraj/cse1007_java_winter202122
@@ -51,7 +51,7 @@ class PGStudent{
         this.marks = marks;
     }
 
-    /* Find area as per requirement */
+    /* Find average as per requirement */
     public double findAverage(){
         double sum = 0;
         for (int i = 0; i < marks.length; i++) {
