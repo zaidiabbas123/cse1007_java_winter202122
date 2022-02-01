@@ -42,7 +42,7 @@ class Student{
         this.marks = marks;
     }
 
-    /* Find area as per requirement */
+    /* Find average as per requirement */
     public double findAverage(){
         double sum = 0;
         for (int i = 0; i < marks.length; i++) {
