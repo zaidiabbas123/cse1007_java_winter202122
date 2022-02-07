@@ -1,19 +1,19 @@
 # Java OOP: Inheritance
 ## Inheritance 
 - Getting Property from Parent
-`Parent -> Parent Class / Base Class / Super Class`
-`Children -> Child Class  / Derived Class / Sub Class`
+    -`Parent -> Parent Class / Base Class / Super Class`
+    - `Children -> Child Class  / Derived Class / Sub Class`
 - Types
-- Single Inheritance (A->B)
-- Multilevel Inheritance (A->B->C)
-- Hierarchical Inheritance (A->B,A->C, A->D) 
+    - Single Inheritance (A->B)
+    - Multilevel Inheritance (A->B->C)
+    - Hierarchical Inheritance (A->B,A->C, A->D) 
 - Keyword Used in Java: `extends`
 - When to use: If the objects are coming under `is-a` relationship
+- Syntax 
 ```java
 class A {}
 class B extends A {}
 ```
-
 ## Example
 ### Class: Book (Parent)
 - Common to all books. Any book has 
