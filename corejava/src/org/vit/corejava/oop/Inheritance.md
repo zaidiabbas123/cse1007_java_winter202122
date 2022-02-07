@@ -1,7 +1,7 @@
 # Java OOP: Inheritance
 ## Inheritance 
 - Getting Property from Parent
-    -`Parent -> Parent Class / Base Class / Super Class`
+    - `Parent -> Parent Class / Base Class / Super Class`
     - `Children -> Child Class  / Derived Class / Sub Class`
 - Types
     - Single Inheritance (A->B)
@@ -27,11 +27,11 @@ class B extends A {}
     - getters and setters
 
 ### Class: CirculatingBook
--Class CirculatingBook models books that can circulate. When checked out, information is stored about the patron who borrowed the book and when it is due. In addition to fields and methods of books, a circulating book has
--fields
+- Class CirculatingBook models books that can circulate. When checked out, information is stored about the patron who borrowed the book and when it is due. In addition to fields and methods of books, a circulating book has
+- fields
     - currentHolder (patron, if any, who checked out the book)
     - dueDate (when book should be returned) 
--constructors and methods
+- constructors and methods
     - a constructor using 3 parameters for an author, title, ISBN number. When constructed, - currentHolder and dueDate should be null.
     - getters and setters
     - checkout handles processing when a book is checked out, storing the person's name and the date the book is due to be returned.
