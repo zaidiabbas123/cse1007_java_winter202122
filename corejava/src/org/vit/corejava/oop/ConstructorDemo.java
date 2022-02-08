@@ -7,6 +7,8 @@ package org.vit.corejava.oop;
 * GitHub URL: https://github.com/anthoniraj/cse1007_java_winter202122
 */
 
+import org.vit.corejava.poly.Student;
+
 class Student{
     /* Create Properties of Student Class */    
     private String name;
