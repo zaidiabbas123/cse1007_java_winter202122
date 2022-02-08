@@ -18,6 +18,20 @@ package org.vit.corejava.oop;
  * ("Head First Java","Kathy Sierra", "978-8173666025") 
  */
 
+class Book {
+    private String  title;
+    private String author;
+    private String ISBN;
+
+    public Book() {}
+
+    public Book(String title, String author, String ISBN) {
+        this.title = title;
+        this.author = author;
+        this.ISBN = ISBN;
+    }
+}
+
 public class Composition {
     public static void main(String[] args) {
         
