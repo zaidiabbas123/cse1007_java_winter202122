@@ -1,6 +1,6 @@
 package org.vit.corejava.oop;
 
-import org.vit.corejava.poly.PGStudent;
+import org.vit.corejava.polymorphism.PGStudent;
 
 /*
 * Author: Anthoniraj Amalanathan

@@ -1,5 +1,7 @@
 package org.vit.corejava.oop;
 
+import org.vit.corejava.inheritance.Book;
+
 /**
  * Author: Anthoniraj Amalanathan
  * Topic: Association 
