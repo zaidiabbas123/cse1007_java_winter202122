@@ -139,7 +139,7 @@ class CirculatingBook extends Book{
 /**
  * Test the Inheritance Functionalities
  */
-public class Inheritance {
+public class Single {
         public static void main(String[] args) {
             CirculatingBook book1 = new CirculatingBook("Java Generics and Collections", "Maurice Naftalin", "978-8184042160");
             CirculatingBook book2 = new CirculatingBook("Java: The Complete Reference","Herbert Schildt", "978-1259589331");
