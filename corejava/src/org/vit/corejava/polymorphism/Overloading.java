@@ -34,7 +34,7 @@ class PGStudent extends Student{
 public class Overloading {
     public static void main(String[] args) {
         Student stud = new PGStudent();
-        stud.register("Java", "C++", "Python"); //Wrong one - Compile Time Error
+        //stud.register("Java", "C++", "Python"); //Wrong one - Compile Time Error
         stud.register("Java", "C++");//This is the correct one
     }
 }
